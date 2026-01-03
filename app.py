@@ -42,7 +42,7 @@ with st.sidebar:
 
 # [cite_start]--- PÁGINA: DASHBOARD [cite: 1685] ---
 if menu_option == "Dashboard":
-    [cite_start]st.markdown("### Home > Dashboard") # Breadcrumbs [cite: 1654]
+    st.markdown("### Home > Dashboard") # Breadcrumbs
     st.title("Dashboard")
     
     # [cite_start]Métricas [cite: 1693]
